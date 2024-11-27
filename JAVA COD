@@ -1,0 +1,91 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.proyect1;
+
+/**
+ *
+ * @author garval
+ */
+public class holaMundo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        
+       System.out.print("hola mundo" + "\n");
+        System.out.println("hola mundo");
+        
+        for(int i = 0; i <= 10; i++)
+        {
+            System.out.print("1 * "+ i + " = " + 1 * i + "\n");
+        }
+        
+       // estas variables solo se maneja numeros enteros.
+       
+        byte mordida;
+        mordida = 126;
+        System.out.println("modirdia = " + mordida);
+        
+        short corto;
+        corto = 32000;
+        System.out.println("corto = " + corto);        
+        
+        int entero;
+        entero = 32000;
+        System.out.println("entero = " + entero);
+        
+        long largo;
+        largo = 452315656;
+        System.out.println("largo = " + largo);
+        
+       // para hacerlos enteros se debe de hacer un castin
+       
+       
+        byte byt;
+        byt =(byte) 126.98;
+        System.out.println("byt = " + byt);
+        
+        short cort;
+        cort =(short) 32000.84;
+        System.out.println("cort = " + cort);        
+        
+        
+        // espacio
+        
+        
+        float flotador;
+        flotador = 5562165.56f;
+        System.out.println("flotador = " + flotador);
+        
+        double doble;
+        doble = 32000.59f;
+        System.out.println("doble = " + doble);
+        
+        double dobl;
+        dobl = 325600.55;
+        System.out.println("dobl = " + dobl);
+        
+        
+        char caracter;
+        caracter = 'c';
+        System.out.println("caracter = " + caracter);
+        
+        boolean boleano;
+        boleano = true;
+        System.out.println("boleano = " + boleano);
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
